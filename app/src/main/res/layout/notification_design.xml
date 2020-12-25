@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/user_notification_card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="20dp"
+    app:cardCornerRadius="20dp"
+    android:outlineProvider="background"
+    app:cardBackgroundColor="@color/purple_500"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/image_and_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/notification_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/profile_image"/>
+
+
+            <TextView
+                android:id="@+id/name_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="User Name"
+                android:layout_marginLeft="80dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/image_and_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/addFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Friend"
+                android:backgroundTint="#1AFF00"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/deleteFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="#FF0000"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5071488497",
+    "project_id": "sync-efa03",
+    "storage_bucket": "sync-efa03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5071488497:android:4bbc863e9e9e64f00c7050",
+        "android_client_info": {
+          "package_name": "com.ab.sync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5071488497-6u2q7a93aqjhpnfq4c83u4qe5ltv9usl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZECfIQ2F8yMkMHn0O-EznYzPQJxl0O1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5071488497-6u2q7a93aqjhpnfq4c83u4qe5ltv9usl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
